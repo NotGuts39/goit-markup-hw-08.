@@ -1,0 +1,74 @@
+/* Regular customers */
+
+.regular-customers {
+  display: flex;
+  flex-wrap: wrap;
+  // text-align: center;
+  // justify-content: center;
+
+  margin: -15px;
+
+  // &:first-child {
+  //   margin-left: 0px;
+  // }
+
+  &__li {
+    // width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+
+    // margin-left: 30px;
+  }
+}
+
+.regular-customers__svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  width: 210px;
+  height: 92px;
+  // width: 170px;
+  // height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+  }
+}
+
+.regular-customers__union {
+  width: 41px;
+  height: 47px;
+  fill: currentColor;
+}
+.regular-customers__company {
+  width: 40px;
+  height: 52px;
+  fill: currentColor;
+}
+.regular-customers__object {
+  width: 43px;
+  height: 41px;
+  fill: currentColor;
+}
+.regular-customers__foster {
+  width: 84px;
+  height: 41px;
+  fill: currentColor;
+}
+.regular-customers__brand {
+  width: 63px;
+  height: 45px;
+  fill: currentColor;
+}
+.regular-customers__tag {
+  width: 94px;
+  height: 44px;
+  fill: currentColor;
+}

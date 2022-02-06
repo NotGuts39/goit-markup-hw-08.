@@ -1,0 +1,52 @@
+/* superiority */
+
+.section-superiority {
+  padding-top: 94px;
+}
+
+.superioritys {
+  display: block;
+
+  &__svg {
+    background-color: var(--background-button-color);
+    height: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__antenna,
+  &__clock,
+  &__diagram,
+  &__astronaut {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__section-description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  &__text {
+    color: var(--primary-text-color);
+  }
+}
+
+.superioritys__li {
+  padding-bottom: 30px;
+  // margin-left: 30px;
+  // width: 270px;
+
+  // &:first-child {
+  //   margin-left: 0;
+  // }
+}

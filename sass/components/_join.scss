@@ -1,0 +1,58 @@
+/* join */
+
+.foother-div {
+  // margin-left: 70px;
+  margin-bottom: 60px;
+
+  &__text {
+    font-style: normal;
+    color: var(--primary-white-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+  }
+}
+
+.link-foother {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 206px;
+  height: 44px;
+}
+
+.link-foother__li {
+  margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
+}
+
+.link-foother__decoration {
+  color: var(--primary-white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.link-foother__team-link {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
