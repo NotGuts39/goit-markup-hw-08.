@@ -175,8 +175,13 @@
           <ul class="team list">
             <li class="team__li team__li--shadow">
               <img
-                srcset="./images/img1mob.jpg 450w, ./images/img1@2x.jpg 900w"
-                sizes="100vw"
+                srcset="
+                  ./images/img1mob.jpg       450w,
+                  ./images/img1@2x.jpg       900w,
+                  ./images/imgtablet1.jpg    354w,
+                  ./images/imgtablet1@2x.jpg 708w
+                "
+                sizes="(min-width: 768px) 50vw, 100vw"
                 src="./images/img1mob.jpg"
                 alt="man"
               />
@@ -217,8 +222,13 @@
             </li>
             <li class="team__li team__li--shadow">
               <img
-                srcset="./images/img2mob.jpg 450w, ./images/img2@2x.jpg 900w"
-                sizes="100vw"
+                srcset="
+                  ./images/img2mob.jpg       450w,
+                  ./images/img2@2x.jpg       900w,
+                  ./images/imgtablet2.jpg    354w,
+                  ./images/imgtablet2@2x.jpg 708w
+                "
+                sizes="(min-width: 768px) 50vw, 100vw"
                 src="./images/img2mob.jpg"
                 alt="man"
               />
@@ -259,8 +269,13 @@
             </li>
             <li class="team__li team__li--shadow">
               <img
-                srcset="./images/img3mob.jpg 450w, ./images/img3@2x.jpg 900w"
-                sizes="100vw"
+                srcset="
+                  ./images/img3mob.jpg       450w,
+                  ./images/img3@2x.jpg       900w,
+                  ./images/imgtablet3.jpg    354w,
+                  ./images/imgtablet3@2x.jpg 708w
+                "
+                sizes="(min-width: 768px) 50vw, 100vw"
                 src="./images/img3mob.jpg"
                 alt="man"
               />
@@ -301,8 +316,13 @@
             </li>
             <li class="team__li team__li--shadow">
               <img
-                srcset="./images/img4.jpg 450w, ./images/img4@2x.jpg 900w"
-                sizes="100vw"
+                srcset="
+                  ./images/img4.jpg          450w,
+                  ./images/img4@2x.jpg       900w,
+                  ./images/imgtablet4.jpg    354w,
+                  ./images/imgtablet4@2x.jpg 708w
+                "
+                sizes="(min-width: 768px) 50vw, 100vw"
                 src="./images/img4.jpg"
                 alt="man"
               />
@@ -401,61 +421,65 @@
     <!--Foother-->
     <footer class="foother">
       <div class="foother-container container">
-        <div class="">
-          <a href="" class="foother-container__address-logo"
-            >Web<span class="foother-container__logo-span">Studio</span></a
-          >
+        <div class="foother-container__tablet">
+          <div class="">
+            <a href="" class="foother-container__address-logo"
+              >Web<span class="foother-container__logo-span">Studio</span></a
+            >
 
-          <address class="address">
-            <ul class="list">
-              <li>
-                <a href="" class="address__city">г. Киев, пр-т Леси Украинки, 26</a>
+            <address class="address">
+              <ul class="list">
+                <li>
+                  <a href="" class="address__city">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li class="feedback">
+                  <a href="mailto:info@example.com" class="feedback__address-nav"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="feedback">
+                  <a href="tel:+380991111111" class="feedback__address-nav">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <!-- Присоединяйтесь -->
+
+          <div class="foother-div">
+            <h2 class="foother-div__text">Присоединяйтесь</h2>
+
+            <ul class="link-foother list">
+              <li class="link-foother__li">
+                <a href="" class="link-foother__decoration">
+                  <svg class="link-foother__team-link">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="feedback">
-                <a href="mailto:info@example.com" class="feedback__address-nav">info@example.com</a>
+              <li class="link-foother__li">
+                <a href="" class="link-foother__decoration">
+                  <svg class="link-foother__team-link">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="feedback">
-                <a href="tel:+380991111111" class="feedback__address-nav">+38 099 111 11 11</a>
+              <li class="link-foother__li">
+                <a href="" class="link-foother__decoration">
+                  <svg class="link-foother__team-link">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="link-foother__li">
+                <a href="" class="link-foother__decoration">
+                  <svg class="link-foother__team-link">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-
-        <!-- Присоединяйтесь -->
-
-        <div class="foother-div">
-          <h2 class="foother-div__text">Присоединяйтесь</h2>
-
-          <ul class="link-foother list">
-            <li class="link-foother__li">
-              <a href="" class="link-foother__decoration">
-                <svg class="link-foother__team-link">
-                  <use href="./images/sprite.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="link-foother__li">
-              <a href="" class="link-foother__decoration">
-                <svg class="link-foother__team-link">
-                  <use href="./images/sprite.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="link-foother__li">
-              <a href="" class="link-foother__decoration">
-                <svg class="link-foother__team-link">
-                  <use href="./images/sprite.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="link-foother__li">
-              <a href="" class="link-foother__decoration">
-                <svg class="link-foother__team-link">
-                  <use href="./images/sprite.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
 
         <!-- Подпишитесь на расссылку -->

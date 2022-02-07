@@ -6,6 +6,14 @@
   background-color: var(--background-grey-color);
 }
 
+.foother-container__tablet {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
 .foother-container {
   display: block;
   align-items: baseline;

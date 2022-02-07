@@ -7,6 +7,12 @@
 .superioritys {
   display: block;
 
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+
   &__svg {
     background-color: var(--background-button-color);
     height: 120px;
@@ -33,7 +39,10 @@
     text-transform: uppercase;
     color: var(--title-text-color);
     margin-bottom: 10px;
-    text-align: center;
+
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
   }
 
   &__text {
@@ -43,6 +52,12 @@
 
 .superioritys__li {
   padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    margin: 15px;
+    width: 354px;
+  }
+
   // margin-left: 30px;
   // width: 270px;
 
