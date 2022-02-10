@@ -1,8 +1,12 @@
 /* join */
 
 .foother-div {
-  // margin-left: 70px;
   margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-left: 70px;
+  }
 
   &__text {
     font-style: normal;

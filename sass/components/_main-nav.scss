@@ -5,6 +5,10 @@
   padding-top: 25px;
   padding-bottom: 16px;
   position: relative;
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 25px;
+  }
 }
 
 .header-container {
@@ -17,7 +21,10 @@
 
 .main-nav {
   display: flex;
-  align-items: baseline;
+
+  @media screen and (min-width: 768px) {
+    align-items: baseline;
+  }
 
   @media screen and (max-width: 767px) {
     justify-content: space-between;
@@ -44,7 +51,7 @@
 
 .site-nav {
   display: block;
-  align-items: center;
+  // align-items: center;
 
   &--main-link {
     @media screen and (max-width: 767px) {
@@ -113,6 +120,12 @@
       border-radius: 2px;
 
       margin-top: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    &::after {
+      margin-top: 22px;
     }
   }
 }

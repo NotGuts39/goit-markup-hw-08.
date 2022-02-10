@@ -17,6 +17,12 @@
       margin-top: 25px;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    &::after {
+      margin-top: 22px;
+    }
+  }
 }
 
 /* Buttons */

@@ -19,6 +19,13 @@
   align-items: baseline;
   text-align: center;
 
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    text-align: start;
+    // justify-content: space-around;
+    // align-items: baseline;
+  }
+
   &__address-logo {
     display: block;
     margin-bottom: 20px;
@@ -42,6 +49,10 @@
 
 .address {
   margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .address__city {

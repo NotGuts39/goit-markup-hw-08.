@@ -11,6 +11,11 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 64px;
   }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .site-nav__link-nav {
