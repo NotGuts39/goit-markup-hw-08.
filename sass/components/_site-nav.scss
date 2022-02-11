@@ -26,13 +26,13 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  // display: flex;
-  // align-items: center;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 768px) {
     font-size: 12px;
+    display: flex;
+    align-items: center;
   }
 
   &:hover,
@@ -73,7 +73,7 @@
 
 .menu-links {
   display: flex;
-  margin-left: 40px;
+  // margin-left: 40px;
 
   @media screen and (min-width: 768px) {
     display: none;

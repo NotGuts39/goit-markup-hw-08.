@@ -5,7 +5,7 @@
 }
 
 .superioritys {
-  display: block;
+  // display: block;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -55,11 +55,20 @@
 }
 
 .superioritys__li {
-  padding-bottom: 30px;
+  // padding-bottom: 30px;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   @media screen and (min-width: 768px) {
     margin: 15px;
     width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
   }
 
   // margin-left: 30px;

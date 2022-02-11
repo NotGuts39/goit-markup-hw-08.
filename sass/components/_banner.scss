@@ -62,7 +62,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) {
   .banner {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/tablet-head.jpg);
@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 769px) {
   .banner {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/desktop-head.jpg);
