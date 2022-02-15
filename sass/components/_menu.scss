@@ -38,10 +38,19 @@
   display: flex;
   align-items: center;
   flex-grow: 1;
-  justify-content: center;
-  padding-left: 40px;
+  justify-content: space-between;
+  // justify-content: center;
+  // padding-left: 40px;
+  // margin-left: 88px;
   &.is-open {
     display: block;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
   }
 
   @media screen and (max-width: 767px) {
@@ -53,5 +62,13 @@
     background-color: white;
     z-index: 2;
     display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-left: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
   }
 }

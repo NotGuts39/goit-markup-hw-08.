@@ -62,7 +62,7 @@
     @media screen and (min-width: 768px) {
       display: flex;
       align-items: normal;
-      margin-left: 53px;
+      // margin-left: 53px;
     }
   }
 }
@@ -91,7 +91,17 @@
     }
   }
 
+  @media screen and (max-width: 1199px) {
+    &:first-child {
+      margin-right: 0;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
+    &:first-child {
+      margin-right: 0;
+    }
+
     &:last-child {
       margin-right: 30px;
       margin-bottom: 0;
